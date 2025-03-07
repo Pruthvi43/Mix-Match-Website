@@ -1,0 +1,18 @@
+body{
+    background-image: url('https://img.goodfon.com/wallpaper/big/a/42/grunge-texture-art-style.webp');
+    background-size: 500px, 600px;
+}
+h1{
+    font-size: 100px;
+    color: #FFFFFF;
+}
+
+.Guitar{
+    transform: translate( 700px, 200px);
+    width: 500px;
+}
+.DragonLeft{
+    position: relative;
+    top: 20px;
+    right: 500px; ;
+}

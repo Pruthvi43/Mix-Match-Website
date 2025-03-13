@@ -1,28 +1,48 @@
+@font-face {
+    font-family: PunkFont;
+    src: url(Punk.ttf);
+}
+
+
+
 body{
-    background-image: url('https://img.goodfon.com/wallpaper/big/a/42/grunge-texture-art-style.webp');
-    background-size: 500px, 600px;
+    background-image: url('https://wallpaperaccess.com/full/1560634.jpg');
+    background-size: cover ;
+    margin: 0px;
 }
 h1{
     font-size: 100px;
     color: #FFFFFF;
 }
 h2{
-    font-size: 30px;
-    color: red;
+    margin: 4px;
+    font-family: PunkFont;
+    font-size: 25px;
+    color: #ffcc55;;
 }
 
+
 .Guitar{
-    transform: translate( 700px, 200px);
+    transform: translate( 600px, -10px);
     width: 500px;
 }
 .DragonRight{
-    position: relative;
-    top: 20px;
-    right: 500px; ;
+    position:relative;
+    top: -200px;
+    right: 450px; ;
+    width: 500px;
 }
-.DragonLeft{
+.DragonLeft {
     position: relative;
-    top: 15px;
-    left: 75px; ;
-    width: 650px;
+    top: 100px;
+    left: -350px; ;
+    width: 350px;
+}
+
+.position{
+color: #7fff7f;;
+font-family: 'Courier New', Courier, monospace;
+    position:absolute;
+    
+     right: 1000px;
 }
